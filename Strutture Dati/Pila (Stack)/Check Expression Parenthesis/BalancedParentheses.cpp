@@ -8,7 +8,7 @@
 
 #include <iostream>
 using namespace std;
-#include "Stack.h"
+#include "./Stack.h"
 template <class T>
 bool isExpressionBalanced(T * exp, int length){
 	Stack<T> * stack = new Stack<T>();
